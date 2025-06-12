@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const PINECONE_API_KEY = process.env.PINECONE_API_KEY || 'pcsk_2v4HTc_6CLikgUfqmasgUrSaEAXcy6VuTLUFW9ums1gk7REqAvwAFNQpGMXLyW5hzMnJuQ';
+const PINECONE_API_KEY = process.env.PINECONE_API_KEY || 'your-api-key';
 
 // Initialize Pinecone client
 const pinecone = new Pinecone({
